@@ -30,7 +30,7 @@ fun BeerItem(
     modifier: Modifier
 ) {
     Card(
-        modifier = modifier,
+        modifier = modifier.padding(horizontal = 16.dp),
         elevation = CardDefaults.cardElevation(
             defaultElevation = 4.dp
         ),

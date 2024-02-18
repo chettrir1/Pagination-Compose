@@ -11,6 +11,7 @@ import androidx.room.withTransaction
 import com.raju.paginationcompose.data.local.BeerDatabase
 import com.raju.paginationcompose.data.local.BeerEntity
 import com.raju.paginationcompose.data.mapper.toBeerEntity
+import kotlinx.coroutines.delay
 import java.io.IOException
 
 @OptIn(ExperimentalPagingApi::class)
